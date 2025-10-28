@@ -57,3 +57,19 @@ for i in range(len(sample[0])):
     if isinstance(sample[0][i], str) or isinstance(sample[0][i], bool):
         sample[0][i] = encoders[i].transform([sample[0][i]])[0]
 print("New prediction:", model.predict([sample[0]])[0])
+
+
+
+
+output
+|--- Outlook <= 0.50
+|   |--- Windy <= 0.50
+|   |   |--- class: No
+|   |--- Windy >  0.50
+|   |   |--- class: Yes
+|--- Outlook >  0.50
+|   |--- Temperature <= 1.50
+|   |   |--- class: Yes
+|   |--- Temperature >  1.50
+|   |   |--- class: No
+
