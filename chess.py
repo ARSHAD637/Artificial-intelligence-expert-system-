@@ -26,3 +26,17 @@ if __name__ == "__main__":
     solution = solve_eight_queens()
     for row in solution:
         print(" ".join(map(str, row)))
+
+
+
+
+output
+1 0 0 0 0 0 0 0
+0 0 0 0 1 0 0 0
+0 0 0 0 0 0 0 1
+0 0 0 0 0 1 0 0
+0 0 1 0 0 0 0 0
+0 0 0 0 0 0 1 0
+0 1 0 0 0 0 0 0
+0 0 0 1 0 0 0 0
+
