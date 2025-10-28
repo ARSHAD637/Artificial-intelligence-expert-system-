@@ -91,3 +91,26 @@ if solution:
         print_puzzle(state)
 else:
     print("❌ No solution found.")
+
+#output:
+#🧩 Initial State:
+#1 2 3
+#4   6
+#7 5 8
+
+#✅ Solution found! Steps:
+#Step 0:
+#1 2 3
+#4   6
+#7 5 8
+
+#Step 1:
+#1 2 3
+#4 5 6
+#7   8
+
+#Step 2:
+#1 2 3
+#4 5 6
+#7 8
+
