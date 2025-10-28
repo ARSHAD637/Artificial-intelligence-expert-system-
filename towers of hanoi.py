@@ -27,3 +27,17 @@ def towers_of_hanoi(n, source, target, auxiliary):
 num_disks = int(input("Enter the number of disks: "))
 print(f"\nSteps to solve Towers of Hanoi with {num_disks} disks:\n")
 towers_of_hanoi(num_disks, 'A', 'C', 'B')
+
+
+#output:
+#Enter the number of disks: 5
+
+#Steps to solve Towers of Hanoi with 5 disks:
+
+#Move disk 1 from A → C
+#Move disk 2 from A → B
+#Move disk 1 from C → B
+#Move disk 3 from A → C
+#Move disk 1 from B → A
+ 
+
