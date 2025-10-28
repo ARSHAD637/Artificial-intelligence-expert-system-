@@ -27,3 +27,10 @@ graph = {
 
 # Start BFS from node 0
 bfs(graph, 0)
+
+
+
+output
+BFS Traversal Order:
+0 1 2 3 4 
+
