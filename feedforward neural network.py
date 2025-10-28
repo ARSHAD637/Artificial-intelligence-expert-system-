@@ -61,3 +61,13 @@ for epoch in range(10000):
 # Display results
 print("Final predicted output after training:")
 print(predicted_output.round(3))
+
+
+
+
+#Final predicted output after training:
+[[0.019]
+ [0.984]
+ [0.984]
+ [0.017]]
+
