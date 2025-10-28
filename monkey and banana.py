@@ -60,3 +60,15 @@ class MonkeyBananaProblem:
 # Run the simulation
 problem = MonkeyBananaProblem()
 problem.solve()
+
+#output:
+#Initial State:
+#Monkey: A, Box: B, On Box: False, Has Banana: False
+#Monkey moves from A to B.
+#Monkey pushes box from B to C.
+#Monkey climbs on the box.
+#Monkey grabs the banana! 🍌
+
+#Final State:
+#Monkey: C, Box: C, On Box: True, Has Banana: True
+
