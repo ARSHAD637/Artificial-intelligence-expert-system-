@@ -56,3 +56,14 @@ def water_jug_4_3_get_2():
 steps = water_jug_4_3_get_2()
 for i, (state, act) in enumerate(steps):
     print(f"{i}: {state} via {act}")
+
+
+#output
+#0: (0, 0) via start
+#1: (4, 0) via Fill 4-gal
+#2: (1, 3) via Pour 4→3
+#3: (1, 0) via Empty 3-gal
+#4: (0, 1) via Pour 4→3
+#5: (4, 1) via Fill 4-gal
+#6: (2, 3) via Pour 4→3
+
