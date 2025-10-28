@@ -146,4 +146,14 @@ if __name__ == "__main__":
     for q in tests:
         ok, const, theta = explain_proof(q, kb)
         print(f"Query {q}: {'PROVED' if ok else 'FAILED'}; bindings={theta}")
+
+
+
+
+output
+Query ('bird', '"duck"'): PROVED; bindings={'A_1654081914368': '"duck"'}
+Query ('animal', '"duck"'): PROVED; bindings={'A_1654081916608': '"duck"'}
+Query ('vertebrate', '"cat"'): PROVED; bindings={'A_1654078118656': '"cat"'}
+Query ('bird', '"cat"'): FAILED; bindings={}
+
                 
