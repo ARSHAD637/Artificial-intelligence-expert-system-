@@ -80,3 +80,82 @@ def clean_environment(start):
 
 # Run the simulation
 clean_environment(start)
+
+
+
+
+
+
+
+
+
+output:
+Initial Environment:
+[0, 1, 0, -1, 1]
+[0, 0, 1, 0, 0]
+[1, -1, 0, 1, 0]
+[0, 1, 0, 0, 1]
+
+Vacuum moved to (0, 1)
+Cleaned cell (0, 1)
+[0, 0, 0, -1, 1]
+[0, 0, 1, 0, 0]
+[1, -1, 0, 1, 0]
+[0, 1, 0, 0, 1]
+
+Vacuum moved to (1, 1)
+Vacuum moved to (1, 2)
+Cleaned cell (1, 2)
+[0, 0, 0, -1, 1]
+[0, 0, 0, 0, 0]
+[1, -1, 0, 1, 0]
+[0, 1, 0, 0, 1]
+
+Vacuum moved to (2, 2)
+Vacuum moved to (2, 3)
+Cleaned cell (2, 3)
+[0, 0, 0, -1, 1]
+[0, 0, 0, 0, 0]
+[1, -1, 0, 0, 0]
+[0, 1, 0, 0, 1]
+
+Vacuum moved to (3, 3)
+Vacuum moved to (3, 4)
+Cleaned cell (3, 4)
+[0, 0, 0, -1, 1]
+[0, 0, 0, 0, 0]
+[1, -1, 0, 0, 0]
+[0, 1, 0, 0, 0]
+
+Vacuum moved to (2, 4)
+Vacuum moved to (1, 4)
+Vacuum moved to (0, 4)
+Cleaned cell (0, 4)
+[0, 0, 0, -1, 0]
+[0, 0, 0, 0, 0]
+[1, -1, 0, 0, 0]
+[0, 1, 0, 0, 0]
+
+Vacuum moved to (1, 4)
+Vacuum moved to (1, 3)
+Vacuum moved to (1, 2)
+Vacuum moved to (1, 1)
+Vacuum moved to (1, 0)
+Vacuum moved to (2, 0)
+Cleaned cell (2, 0)
+[0, 0, 0, -1, 0]
+[0, 0, 0, 0, 0]
+[0, -1, 0, 0, 0]
+[0, 1, 0, 0, 0]
+
+Vacuum moved to (3, 0)
+Vacuum moved to (3, 1)
+Cleaned cell (3, 1)
+[0, 0, 0, -1, 0]
+[0, 0, 0, 0, 0]
+[0, -1, 0, 0, 0]
+[0, 0, 0, 0, 0]
+
+✅ All cells are clean!
+Total movements: 18
+
