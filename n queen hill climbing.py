@@ -70,3 +70,18 @@ def hill_climbing(n, max_restarts=100):
 if __name__ == "__main__":
     N = int(input("Enter number of queens (e.g., 8): "))
     hill_climbing(N, max_restarts=50)
+
+
+
+
+
+
+ouput:
+✅ Solution found after 2 restart(s):
+. . . Q . . 
+Q . . . . .
+. . . . Q .
+. Q . . . .
+. . . . . Q
+. . Q . . .
+
