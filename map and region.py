@@ -47,3 +47,17 @@ if color_map(0, regions):
         print(f"{region}: {color}")
 else:
     print("❌ No valid coloring found.")
+
+
+
+
+ouput:
+✅ Map Coloring Solution:
+Western Australia: Red
+Northern Territory: Green
+South Australia: Blue
+Queensland: Red
+New South Wales: Green
+Victoria: Red
+Tasmania: Green
+
