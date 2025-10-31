@@ -53,3 +53,17 @@ print("Best schedule found:")
 for t, s in zip(tasks, best_schedule):
     print(f"{t} -> {s}")
 print("Cost (conflicts):", best_cost)
+
+
+
+
+output:
+Best schedule found:
+Task1 -> Slot2
+Task2 -> Slot1
+Task3 -> Slot1
+Task4 -> Slot2
+Task5 -> Slot3
+Task6 -> Slot3
+Cost (conflicts): 0
+
