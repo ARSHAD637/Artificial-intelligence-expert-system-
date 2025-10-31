@@ -41,3 +41,28 @@ print(f"\nBest provider (highest reputation): {best_provider.name}")
 print("\nAll provider reputation values:")
 for p in sorted(providers, key=lambda x: x.trust_score(), reverse=True):
     print(f"{p.name}: {p.trust_score():.2f}")
+
+
+output:
+Client 1 gives feedback 0.7 to Provider A
+Client 2 gives feedback 0.5 to Provider A
+Client 3 gives feedback 0.9 to Provider B
+Client 4 gives feedback 0.8 to Provider B
+Client 5 gives feedback 0.5 to Provider C
+Client 6 gives feedback 0.6 to Provider C
+
+Provider Trust and Reputation Scores:
+Provider A trust score: [0.7, 0.5]
+Provider A reputation: 0.60
+Provider B trust score: [0.9, 0.8]
+Provider B reputation: 0.85
+Provider C trust score: [0.5, 0.6]
+Provider C reputation: 0.55
+
+Best provider (highest reputation): Provider B
+
+All provider reputation values:
+Provider B: 0.85
+Provider A: 0.60
+Provider C: 0.55
+
