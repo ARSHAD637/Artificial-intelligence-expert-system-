@@ -56,3 +56,13 @@ if chance_value > min_value:
     print("AI chooses Chance subtree (expected utility = {:.2f})".format(chance_value))
 else:
     print("AI chooses Min subtree (utility = {:.2f})".format(min_value))
+
+
+output:
+Expected utility at Chance Node: 1.7
+Utility at Min Node: 2
+Expected utility at root (Max): 2
+Changed probabilities at Chance Node: [0.9, 0.1]
+Expected utility at root (Max): 2
+AI chooses Min subtree (utility = 2.00)
+
