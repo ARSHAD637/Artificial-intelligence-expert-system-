@@ -51,3 +51,13 @@ for epoch in range(10000):
 # Test on the XOR input
 print("Predicted Output:")
 print(np.round(output))
+
+
+
+output:
+Predicted Output:
+[[0.]
+ [0.]
+ [1.]
+ [1.]]
+
