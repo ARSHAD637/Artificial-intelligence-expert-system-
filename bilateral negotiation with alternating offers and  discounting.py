@@ -56,3 +56,15 @@ def negotiate():
         print("\nNo agreement reached.")
 
 negotiate()
+
+
+output:
+Negotiation History:
+Round 0: A offers, Offer: (A:60, B:40) - B rejects
+Round 1: B offers, Offer: (A:40, B:60) - A rejects
+Round 2: A offers, Offer: (A:50, B:50) - B accepts
+
+Agreement reached: Agent A gets 50, Agent B gets 50
+Utility Agent A: 40.50, Utility Agent B: 40.50
+Result resembles Nash-like fair outcome
+
