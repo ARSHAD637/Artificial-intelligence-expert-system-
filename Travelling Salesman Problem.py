@@ -55,3 +55,9 @@ for it in range(num_iter):
 print("Best tour found:", best_tour)
 print("Best tour path:", [f"City {i}" for i in best_tour])
 print("Total cost:", round(best_cost, 2))
+
+
+output:
+Best tour found: [4, 2, 0, 1, 5, 3]
+Best tour path: ['City 4', 'City 2', 'City 0', 'City 1', 'City 5', 'City 3']
+Total cost: 24.27
