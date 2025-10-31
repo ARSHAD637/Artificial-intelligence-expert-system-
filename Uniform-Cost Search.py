@@ -49,3 +49,11 @@ print("UCS Total Cost:", ucs_cost)
 print("Dijkstra Path:", dij_path)
 print("Dijkstra Total Cost:", dij_cost)
 print("Optimality validated:", ucs_path == dij_path and ucs_cost == dij_cost)
+
+
+output:
+UCS Path: ['C', 'A', 'F', 'B', 'G']
+UCS Total Cost: 7
+Dijkstra Path: ['C', 'A', 'F', 'B', 'G']
+Dijkstra Total Cost: 7
+Optimality validated: True
