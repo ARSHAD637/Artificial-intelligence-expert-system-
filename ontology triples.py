@@ -61,3 +61,14 @@ print(f"Is '{check_sub}' a subclass of '{check_anc}'? {is_subclass(graph, check_
 check_sub2 = "Cat"
 check_anc2 = "Entity"
 print(f"Is '{check_sub2}' a subclass of '{check_anc2}'? {is_subclass(graph, check_sub2, check_anc2)}")
+
+
+output:
+Ontology Graph (parent -> subclasses):
+  Entity: ['LivingThing']
+  LivingThing: ['Animal']
+  Animal: ['Cat', 'Dog']
+
+All subclasses of 'Animal': {'Dog', 'Cat'}
+Is 'Dog' a subclass of 'LivingThing'? True
+Is 'Cat' a subclass of 'Entity'? True
