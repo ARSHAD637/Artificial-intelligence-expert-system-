@@ -57,11 +57,3 @@ print(f"Beam Search (width {beam_width}) path:", beam_path)
 print(f"Beam Search cost:", beam_cost)
 print("BFS path:", bfs_path)
 print("BFS cost:", bfs_cost)
-
-
-output:
-Beam Search (width 2) path: ['C', 'A', 'B', 'G']
-Beam Search cost: 8
-BFS path: ['C', 'A', 'B', 'G']
-BFS cost: 8
-
