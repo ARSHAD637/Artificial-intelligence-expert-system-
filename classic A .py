@@ -61,3 +61,10 @@ def a_star_search(start, goal):
 
 # Run A* Search
 a_star_search('A', 'F')
+
+
+output:
+Order of node expansion: ['A', 'B', 'D', 'F']
+Optimal Path: A → B → D → F
+Total Cost: 5
+
