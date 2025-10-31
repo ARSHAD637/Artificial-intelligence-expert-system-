@@ -35,3 +35,10 @@ def tsp_brute_force(distance, cities):
 path, cost = tsp_brute_force(distance, cities)
 print("Shortest path:", path)
 print("Minimum cost:", cost)
+
+
+
+output:
+Shortest path: ['A', 'B', 'D', 'C', 'A']
+Minimum cost: 80
+
